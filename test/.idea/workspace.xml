@@ -14,6 +14,7 @@
     <list default="true" id="bc9330f1-0906-45ae-af55-569321c5d70e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deque.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/deque.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +29,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deque.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="216" column="7" lean-forward="true" selection-start-line="216" selection-start-column="7" selection-end-line="216" selection-end-column="7" />
+            <state relative-caret-position="168">
+              <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
               <folding>
-                <element signature="e#4285#5250#1" />
+                <element signature="e#1575#2030#1" />
+                <element signature="e#4335#4569#0" />
+                <element signature="e#4573#5054#0" />
+                <element signature="e#5102#5228#0" />
+                <element signature="e#5187#5840#0" />
+                <element signature="e#6717#6819#0" />
               </folding>
             </state>
           </provider>
@@ -40,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1854">
-              <caret line="205" column="38" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+            <state relative-caret-position="299">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding>
                 <element signature="e#352#380#0" expanded="true" />
               </folding>
@@ -57,8 +63,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/deque.hpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -123,23 +129,24 @@
       <option name="presentableId" value="Default" />
       <updated>1553411783555</updated>
       <workItem from="1553411787405" duration="1449000" />
-      <workItem from="1553509743805" duration="8760000" />
+      <workItem from="1553509743805" duration="9360000" />
+      <workItem from="1553603220971" duration="6907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10209000" />
+    <option name="totallyTimeSpent" value="17716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -171,8 +178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1854">
-          <caret line="205" column="38" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+        <state relative-caret-position="299">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="e#352#380#0" expanded="true" />
           </folding>
@@ -181,10 +188,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deque.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="216" column="7" lean-forward="true" selection-start-line="216" selection-start-column="7" selection-end-line="216" selection-end-column="7" />
+        <state relative-caret-position="168">
+          <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
           <folding>
-            <element signature="e#4285#5250#1" />
+            <element signature="e#1575#2030#1" />
+            <element signature="e#4335#4569#0" />
+            <element signature="e#4573#5054#0" />
+            <element signature="e#5102#5228#0" />
+            <element signature="e#5187#5840#0" />
+            <element signature="e#6717#6819#0" />
           </folding>
         </state>
       </provider>
