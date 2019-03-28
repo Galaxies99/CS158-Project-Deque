@@ -14,10 +14,7 @@
     <list default="true" id="bc9330f1-0906-45ae-af55-569321c5d70e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../data/one.memcheck/code.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../data/one.memcheck/code.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class-integer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/class-integer.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deque.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/deque.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deque.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="623" column="42" lean-forward="true" selection-start-line="623" selection-start-column="42" selection-end-line="623" selection-end-column="42" />
+            <state relative-caret-position="252">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -41,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+            <state relative-caret-position="206">
+              <caret line="679" column="3" selection-start-line="679" selection-start-column="3" selection-end-line="679" selection-end-column="3" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#36238#36353#0" expanded="true" />
@@ -70,6 +67,8 @@
       <find>good_com</find>
       <find>erase</find>
       <find>construct</find>
+      <find>invalid</find>
+      <find>allocateDequeNode(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,12 +149,12 @@
       <workItem from="1553689494834" duration="14509000" />
       <workItem from="1553733904982" duration="2327000" />
       <workItem from="1553737494566" duration="4365000" />
-      <workItem from="1553777707563" duration="6795000" />
+      <workItem from="1553777707563" duration="7200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51127000" />
+    <option name="totallyTimeSpent" value="51532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -239,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+        <state relative-caret-position="206">
+          <caret line="679" column="3" selection-start-line="679" selection-start-column="3" selection-end-line="679" selection-end-column="3" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#36238#36353#0" expanded="true" />
@@ -252,8 +251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deque.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="623" column="42" lean-forward="true" selection-start-line="623" selection-start-column="42" selection-end-line="623" selection-end-column="42" />
+        <state relative-caret-position="252">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>

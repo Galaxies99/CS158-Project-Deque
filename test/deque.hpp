@@ -263,10 +263,12 @@ class deque {
 				iterator& operator--() { *this -= 1; return *this; }
 				T& operator*() const {
 					if(belongDeque == nullptr || belongBlock == nullptr || belongBlock == nullptr) throw invalid_iterator();
+					if(belongNode == this -> belongDeque -> dequeEnd) throw invalid_iterator();
 					return *(belongNode -> nodeValue);
 				}
 				T* operator->() const noexcept {
 					if(belongDeque == nullptr || belongBlock == nullptr || belongBlock == nullptr) throw invalid_iterator();
+					if(belongNode == this -> belongDeque -> dequeEnd) throw invalid_iterator();
 					return belongNode -> nodeValue;
 				}
 				bool operator==(const iterator &rhs) const { return belongDeque == rhs.belongDeque && belongBlock == rhs.belongBlock && belongNode == rhs.belongNode; }
@@ -372,10 +374,12 @@ class deque {
 				const_iterator& operator--() { *this -= 1; return *this; }
 				T& operator*() const {
 					if(belongDeque == nullptr || belongBlock == nullptr || belongBlock == nullptr) throw invalid_iterator();
+					if(belongNode == this -> belongDeque -> dequeEnd) throw invalid_iterator();
 					return *(belongNode -> nodeValue);
 				}
 				T* operator->() const noexcept {
 					if(belongDeque == nullptr || belongBlock == nullptr || belongBlock == nullptr) throw invalid_iterator();
+					if(belongNode == this -> belongDeque -> dequeEnd) throw invalid_iterator();
 					return belongNode -> nodeValue;
 				}
 				bool operator==(const iterator &rhs) const { return belongDeque == rhs.belongDeque && belongBlock == rhs.belongBlock && belongNode == rhs.belongNode; }
