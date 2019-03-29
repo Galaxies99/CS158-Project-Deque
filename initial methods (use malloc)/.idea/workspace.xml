@@ -14,7 +14,7 @@
     <list default="true" id="bc9330f1-0906-45ae-af55-569321c5d70e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../data/one.memcheck/code.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../data/one.memcheck/code.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deque.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/deque.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +29,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deque.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="21">
+              <caret line="368" column="6" lean-forward="true" selection-start-line="368" selection-start-column="6" selection-end-line="368" selection-end-column="6" />
+              <folding>
+                <element signature="e#47#72#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,13 +41,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="679" column="3" selection-start-line="679" selection-start-column="3" selection-end-line="679" selection-end-column="3" />
+            <state relative-caret-position="378">
+              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
-                <element signature="e#36238#36353#0" expanded="true" />
-                <element signature="e#37033#37042#0" expanded="true" />
-                <element signature="e#37079#37906#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +69,19 @@
       <find>construct</find>
       <find>invalid</find>
       <find>allocateDequeNode(</find>
+      <find>copyDe</find>
+      <find>allocateDequeNode</find>
+      <find>free</find>
+      <find>at</find>
+      <find>at(</find>
+      <find>constant</find>
+      <find>cout</find>
+      <find>+no</find>
+      <find>+</find>
+      <find>insert</find>
+      <find>copyc</find>
+      <find>invalid ins</find>
+      <find>copycon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,13 +90,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/deque.hpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
+    <option name="x" value="-10" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -93,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,7 +118,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,23 +162,24 @@
       <workItem from="1553689494834" duration="14509000" />
       <workItem from="1553733904982" duration="2327000" />
       <workItem from="1553737494566" duration="4365000" />
-      <workItem from="1553777707563" duration="7200000" />
+      <workItem from="1553777707563" duration="11576000" />
+      <workItem from="1553852900433" duration="472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51532000" />
+    <option name="totallyTimeSpent" value="56380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3555241" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3838527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -175,7 +189,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.30311614" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27903682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -238,21 +252,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="679" column="3" selection-start-line="679" selection-start-column="3" selection-end-line="679" selection-end-column="3" />
+        <state relative-caret-position="378">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#36238#36353#0" expanded="true" />
-            <element signature="e#37033#37042#0" expanded="true" />
-            <element signature="e#37079#37906#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deque.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="21">
+          <caret line="368" column="6" lean-forward="true" selection-start-line="368" selection-start-column="6" selection-end-line="368" selection-end-column="6" />
+          <folding>
+            <element signature="e#47#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

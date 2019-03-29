@@ -799,16 +799,19 @@ std::pair<bool, double> copyConstructorChecker() {
 	if (stdCounter != srcCounter) {
 		return std::make_pair(false, 0);
 	}
+	std :: cout << "pass1\n";
 	std::deque<DynamicType> tmpA(a);
 	sjtu::deque<DynamicType> tmpB(b);
 	if (stdCounter != srcCounter) {
 		return std::make_pair(false, 0);
 	}
+	std :: cout << "pass2\n";
 	a.clear();
 	b.clear();
 	if (stdCounter != srcCounter) {
 		return std::make_pair(false, 0);
 	}
+	std :: cout << "pass3\n";
 	a = tmpA = tmpA = a;
 	b = tmpB = tmpB = b;
 	if (stdCounter != srcCounter) {
